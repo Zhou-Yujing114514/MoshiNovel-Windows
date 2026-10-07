@@ -40,6 +40,13 @@ jobs:
           Compress-Archive -Path "$dest\*" -DestinationPath MoshiNovel-Windows.zip -Force
           Get-ChildItem MoshiNovel-Windows.zip | Select-Object Name,Length
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: MoshiNovel-Windows
+          path: MoshiNovel-Windows.zip
+          retention-days: 30
+
       - name: Create Release
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
