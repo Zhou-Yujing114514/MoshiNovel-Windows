@@ -353,7 +353,7 @@ class _BookCover extends StatelessWidget {
     }
     final url = cover!.startsWith('http')
         ? cover!
-        : 'https://morax.kdns.fr${cover!.startsWith('/') ? cover! : '/$cover'}';
+        : 'https://morax.sswwgzs.cn${cover!.startsWith('/') ? cover! : '/$cover'}';
     return ClipRRect(
       borderRadius: BorderRadius.circular(8),
       child: CachedNetworkImage(

@@ -1,6 +1,6 @@
 /// 服务器配置
 class ServerConfig {
-  static const String defaultBaseUrl = 'https://morax.kdns.fr';
+  static const String defaultBaseUrl = 'https://morax.sswwgzs.cn';
 
   String baseUrl = defaultBaseUrl;
 

@@ -105,7 +105,7 @@ class _TasksViewState extends State<TasksView> {
     if (urlStr == null || urlStr.isEmpty) return;
     final fullUrl = urlStr.startsWith('http')
         ? urlStr
-        : 'https://morax.kdns.fr${urlStr.startsWith('/') ? urlStr : '/$urlStr'}';
+        : 'https://morax.sswwgzs.cn${urlStr.startsWith('/') ? urlStr : '/$urlStr'}';
     setState(() {
       _downloadingTaskId = task.id;
       _downloadProgress = 0;

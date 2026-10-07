@@ -13,7 +13,7 @@
 
 ## 服务器
 
-默认连接 `https://morax.kdns.fr`（仅 HTTPS / WSS，无明文）。
+默认连接 `https://morax.sswwgzs.cn`（仅 HTTPS / WSS，无明文）。
 
 ## 开发
 
